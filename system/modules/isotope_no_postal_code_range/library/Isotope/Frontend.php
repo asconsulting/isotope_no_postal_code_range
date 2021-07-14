@@ -400,6 +400,8 @@ class Frontend extends \Frontend
      */
     public static function parsePostalCodes($strPostalCodes)
     {
+		die('Frontend Overridden!');
+		
         $arrCodes = array();
 
         foreach (trimsplit(',', $strPostalCodes) as $strCode) {
